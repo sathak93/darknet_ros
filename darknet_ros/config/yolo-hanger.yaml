@@ -1,0 +1,12 @@
+darknet_ros:
+  ros__parameters:
+    yolo_model:
+      config_file:
+        name: yolo-hanger.cfg
+      weight_file:
+        name: yolov4-tiny-hanger_best.weights
+      threshold:
+        value: 0.8
+      detection_classes:
+        names:
+          - hanger

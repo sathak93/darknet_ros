@@ -14,10 +14,10 @@ set(FP16_ENABLE ON)
 set(DOWNLOAD_YOLOV2_TINY OFF)
 set(DOWNLOAD_YOLOV3 OFF)
 set(DOWNLOAD_YOLOV4 OFF)
-set(DOWNLOAD_YOLOV4_CSP ON)
-set(DOWNLOAD_YOLOV4_TINY ON)
+set(DOWNLOAD_YOLOV4_CSP OFF)
+set(DOWNLOAD_YOLOV4_TINY OFF)
 set(DOWNLOAD_YOLOV4_MISH OFF)
-set(DOWNLOAD_YOLOV7_TINY ON)
+set(DOWNLOAD_YOLOV7_TINY OFF)
 
 # Jetson AGX Xavier & TITAN V is under version of Turing. So, please set manually.
 # Turing or Ampere GPUs, FP16 is automatically enabled.
