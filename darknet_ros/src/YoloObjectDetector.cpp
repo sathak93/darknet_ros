@@ -388,8 +388,8 @@ void *YoloObjectDetector::detectInThread()
   if (nms > 0) do_nms_obj(dets, nboxes, l.classes, nms);
 
   if (enableConsoleOutput_) {
-    printf("\033[2J");
-    printf("\033[1;1H");
+    //printf("\033[2J");
+    //printf("\033[1;1H");
     printf("\nFPS:%.1f : ( %s )\n",fps_,ss_fps.str().c_str());
     printf("Objects:\n\n");
   }
